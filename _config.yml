@@ -1,0 +1,12 @@
+# Site settings
+title: notes & scratches
+email: jlrodrigues.dev@gmail.com 
+description: >
+  ToScoobyDoobyDoo
+baseurl: "/blog"
+url: "http://joaocenoura.github.io" # the base hostname & protocol for your site
+github_username:  joaocenoura
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
