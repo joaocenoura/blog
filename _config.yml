@@ -1,5 +1,6 @@
 # Site settings
 title: notes & scratches
+motto: techie related stuff
 email: jlrodrigues.dev@gmail.com 
 description: >
   ToScoobyDoobyDoo
@@ -8,5 +9,8 @@ url: "http://joaocenoura.github.io" # the base hostname & protocol for your site
 github_username:  joaocenoura
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
+# extensions reference: https://github.com/vmg/redcarpet
+redcarpet:
+  extensions: ["autolink", "tables", "fenced_code_blocks"]
