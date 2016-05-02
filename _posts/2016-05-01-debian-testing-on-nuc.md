@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Install Debian Testing in Intel NUC (DN2820FYKH)"
-date:   2016-05-02 18:43:00
+date:   2016-05-01 18:43:00
 categories: blog
 ---
 
