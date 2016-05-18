@@ -5,8 +5,20 @@ email: jlrodrigues.dev@gmail.com
 description: >
   ToScoobyDoobyDoo
 baseurl: "/blog"
+
 url: "http://joaocenoura.github.io" # the base hostname & protocol for your site
 github_username:  joaocenoura
 
+# custom permalink to be date & title based
+permalink: /:year/:month/:day/:title.html
+sass:
+    sass_dir: _sass
+
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
+  input: GFM
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
